@@ -1,0 +1,39 @@
+{
+  "name": "csv-injection-safe-export",
+  "version": "0.1.1",
+  "description": "Encode CSV that is safe to open in Excel and Sheets: quoting plus neutralization of formula prefixes (=, +, -, @, tab, CR, LF).",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./scripts/csv.mjs"
+  },
+  "files": [
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/run.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "csv",
+    "csv-injection",
+    "formula-injection",
+    "security",
+    "javascript",
+    "esm",
+    "excel",
+    "zero-dependencies"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kein-chronicle/csv-injection-safe-export.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kein-chronicle/csv-injection-safe-export/issues"
+  },
+  "homepage": "https://github.com/Kein-chronicle/csv-injection-safe-export#readme"
+}
